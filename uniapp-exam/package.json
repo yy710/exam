@@ -1,0 +1,29 @@
+{
+  "name": "exam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "weixin-js-sdk": "^1.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "yy710",
+  "license": "ISC",
+  "uni-app": {
+      "scripts": {
+          "h5-workwx": { 
+              "title":"企业微信", 
+              "BROWSER":"Chrome", 
+              "env": { 
+                  "UNI_PLATFORM": "h5" 
+              },
+              "define": { 
+                  "H5-WORKWX": true 
+              }
+          }
+      }
+  }
+}
